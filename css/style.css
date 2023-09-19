@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+     padding: 0;
+     text-decoration: none;
+     list-style: none;
+   max-width: 100%;
+   
+  }
+  
+  .surimage{
+    display: block;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+   top: 0;
+   margin-left: 400px;
+   margin-top: 380px;
+   color: white;
+  }
+  .surimage img {
+   position: absolute;
+   top: 0;
+   margin-top: 30px;
+   margin-left: -245px;
+   
+  }
+  
+  .surimage .culture{
+   padding-top: 30px;
+   font-size: 35px;
+   padding-bottom: 50px;
+}
+
+  .salle{
+   max-width: 100%;
+  }
+  
+  li{
+     padding: 20px;
+     list-style: none;
+  
+     
+  }
+  .active{
+     text-decoration: underline;
+     color: aqua;
+  }
+  
+  a,
+  a:visited {
+     color: black;
+     text-decoration:none;
+  
+     
+  }
+  a:hover{
+     color: #6c6c6c;
+     
+  }
+  #nav{
+     background:white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px;
+     font-size: calc(0.5rem + 1.5vw);
+    max-width: 100%;
+     height: 65px;
+  }
+  #nav ul {
+     display: flex;
+     justify-content: space-between;
+     
+    
+  
+  
+  }
+  #icons{
+     cursor: pointer;
+     display: none;
+  }
+  .navbar .nav-links ul li {
+    margin: 50px;
+    font-size: 15px;
+    padding: 10px;
+  
+  }
+  .navbar img{
+     margin-left: 15px;
+  }
+  
+  
+ /* 
+  .nex{
+     position:absolute;
+     width: 200px;
+     height: 250px;
+    top: 0;
+    margin-top: 900px;
+    margin-left: 800px;
+    z-index: 2;
+  }
+*/
+
+
+  
+  .ecris{
+     margin-left: 50px;
+    
+  }
+  .ecris1{
+     margin-left: 100px;
+     padding-bottom: 150px;
+     padding-top: 230px;
+  }
+  
+  .title{
+    padding-top: 10px;
+     text-align: center;
+  }
+  .titre{
+    
+     top: 0;
+  margin-left: 500px;
+     position: absolute;
+   margin-top: 1450px;
+     
+  }
+  
+  .jaune{
+    top: 0;
+    margin-left: 400px;
+       position: absolute;
+     margin-top: 1470px;
+     
+    
+  }
+
+.raisons{
+   padding-bottom: 100px;
+}
+
+  .colonne{
+     
+     max-width: 100%;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-top: 130px;
+     width: 100%;
+     padding-top: 150px;
+    justify-content: space-between;
+    align-items: start;
+   
+    border-radius: 15px;
+   
+    box-shadow: 0px 16px 16px 16px #ededed ;
+  }
+  .number{
+   
+   
+     font-weight: bold;
+     margin: 0 50px;
+     font-size: 200px; /* Augmentez la taille des chiffres */
+     color: rgb(39, 185, 248); /* Changez la couleur en bleu */
+     opacity: 0; /* Initialisez les chiffres avec une opacité de 0 */
+     font-family: 'Playfair Display';
+    
+     transition: opacity 1s ease, font-size 5s ease; 
+   padding-left: 0px;
+   padding-right: 250px;
+   margin-bottom: -375px;
+
+   margin-left: -15px;
+
+  
+  }
+  #number1,
+  #number2,
+  #number3{
+      align-items: center;
+      
+  }
+
+  #number2,
+  #number3{
+   margin-left: 20px;
+  }
+
+  #number1{
+   margin-left: -20px;
+  }
+
+  .container {
+   display: flex;
+   margin-left: 200px;
+  
+}
+  .contenant{
+     position: relative;
+     width: 100px;
+     max-width: 100%;
+     min-height: 100px;
+     background: #fff;
+     align-items: start;
+     grid-template-columns: 200px 250px 250px ;
+  
+     display: grid;
+     justify-content: space-between;
+     margin-left: 100px;
+     grid-column-gap: 200px  ;
+     padding-bottom: 60px;
+     padding-top: 30px;
+ 
+   
+ 
+  }
+
+
+  
+  .guitare{
+     position: absolute;
+     top: 0;
+     height: 555px;
+     margin-left: 700px;
+     margin-top: 2500px;
+     padding-bottom: 40px;
+     z-index: 2;
+  }
+    
+
+
+
+
+  .unique{
+     margin-left: 210px;
+  }
+  .partners{
+     position: relative;
+     width: 100px;
+     max-width: 1000px;
+     min-height: 100px;
+     background: #fff;
+     align-items: start;
+     grid-template-columns: 200px 200px  ;
+     gap: 10px 2em;
+     display: grid;
+     justify-content: space-between;
+     margin-left: 380px;
+     grid-column-gap: 200px;
+     padding-bottom: 100px;
+  }
+
+  .fleche1{
+    position: absolute;
+     margin-left: -100px;
+     margin-top: -50px;
+  }
+  
+  .fleche2{
+     position: absolute;
+     margin-left: 250px;
+     margin-top: -50px;
+  }
+  
+  .phrase{
+     margin-left: 100px;
+     font-size: 8px;
+  }
+  .casque{
+   margin-left: 40px;
+   z-index: 2;
+  
+  }
+  
+  
+  .team{
+     position: relative;
+     width: 750px;
+    height: 400px;
+     background: #fff;
+    
+   
+
+     margin-left: 420px;
+     
+     padding-bottom: 100px;
+     margin-top: -470px;
+   
+    
+   display: grid;
+
+  
+  }
+  
+  
+  
+  .team1{
+   
+     padding-left: 50px;
+     padding-right: 10px; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px #ededed ;
+padding-top: 25px;
+    
+ padding-bottom: 25px;
+ 
+  
+  justify-content: space-between;
+  
+
+ 
+ 
+    
+  }
+  
+  .button{
+     background-color: rgb(111, 211, 169);
+  width: 260px;
+     color: #fff;
+    border-radius: 7px;
+   margin-left: 185px;
+   font-size: 20px;
+
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .fin p{
+     text-align: center;
+     font-size: 6px;
+  }
+
+  .continer {
+  
+  
+   position:absolute;
+     width: 200px;
+     height: 250px;
+    top: 0;
+    margin-top: 900px;
+    margin-left: 800px;
+ 
+}
+
+.nex-container {
+   position: absolute;
+   top: 50%;
+   left: 100%; /* L'image est en dehors de l'écran à l'origine */
+   transform: translateY(-50%);
+   transition: left 2s ease;
+   z-index: 2;
+}
+  
+.nex0 {
+   position: absolute;
+   top: 50%;
+   left: 100%; /* Le cercle est en dehors de l'écran à l'origine */
+   transform: translateY(-50%);
+   
+   background-image: url('../images/nexcercle.png'); /* Ajoutez l'image du cercle en arrière-plan */
+  background-size: cover;
+   background-repeat: no-repeat;
+   transition: left 2s ease;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+  
+}
+
+/*
+.guit {
+  
+   overflow: hidden;
+   
+   
+    position: absolute;
+    top: 0;
+    height: 555px;
+    margin-left: -20px;
+    margin-top: 2000px;
+    padding-bottom: 40px;
+    z-index: 2;
+ 
+ 
+}
+
+.guitare-container {
+   position: absolute;
+   top: 50%;
+   left: 100%; 
+   transform: translateY(-50%);
+   transition: left 2s ease;
+   z-index: 2;
+}
+  
+.guit0 {
+   position: absolute;
+   top: 50%;
+   left: 100%;
+   
+   transform: translateY(-50%);
+   
+   background-image: url('../images/Groupe.png');
+   
+  background-size: cover;
+   background-repeat: no-repeat;
+   transition: left 2s ease;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+  
+}
+
+
+*/
+
+
+
+
+/*MEDIA QUERIES----------------------------------
+--------------------------------------------------
+--------------------------------------------------*/
+  
+   @media screen and (max-width:650px) {
+    *{
+      max-width:100%;
+    }
+  
+  
+    .surimage{
+  
+      display: block;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      margin-left: 100px;
+      margin-top: 200px;
+      font-size: 10px;
+      z-index: 1;
+   }
+  
+     .navbar img{
+         position: absolute;
+         top: 0px;
+         left: 30px;
+         width: 150px;
+         height: 80px;
+         max-width:100% ;
+         background-attachment: fixed;
+         z-index:2;
+     }
+  
+     #icons{
+         display: block;
+     }
+  
+     #icons:before{
+         content: "\2630";
+         position: absolute;
+         top: 30px;
+         left: 75%; 
+     }
+  
+     .active #icons:before{
+         content: "\2715";
+         position: absolute;
+         top: 30px;
+         left: 75%;
+     }
+     
+  
+     #nav ul{
+         position: fixed;
+         left: -100%;
+         top: 6%;
+         flex-direction: column;
+         width: 45%;
+         background-color: rgb(255, 255, 255);
+         text-align: center;
+         transition: 0.5s;
+         z-index: 3;
+         display:block;
+         padding: -25px;
+  
+     }
+     
+  
+     #nav li:hover{
+         background-color: rgb(158, 216, 239);
+     }
+  
+  #nav.active ul{
+     left: 0;
+  }
+  
+  a:hover{
+    color: #6c6c6c;
+   
+  }
+  
+  #nav li{
+  display: block;
+  padding: -10px;
+  
+  }
+  .nex{
+    top: 0;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 550px;
+  }
+  .ecris{
+  
+    position:absolute;
+    font-size: 12px;
+     top: 0;
+   margin-top: 870px;
+  
+  }
+  
+  .nexvect{
+    position: absolute;
+    top: 0;
+    margin-top: 1190px;
+  }
+  
+  .content{
+    margin-top: 600px;
+  }
+
+  .raisons{
+    
+      margin-top: 300px;
+      margin-left: -370px;
+    
+     
+    
+  }
+  
+  .contenant{
+ 
+  flex-direction: column;
+  display: block;
+  grid-template-columns: 400px 550px 500px;
+  width: 45%;
+  
+  
+  }
+  .guitare{
+  
+  
+
+    top: 0;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 3290px;
+  
+  }
+  
+  .ecris1{
+    margin-top: 250px;
+    margin-left: 25px;
+  }
+  .title{
+  
+    margin-left: 10px;
+  
+  }
+  .unique{
+   
+    margin-left: 10px;
+  }
+  .partners{
+    position: relative;
+    flex-direction: column;
+  display: block;
+  grid-template-columns: 100px 100px px;
+  width: 35%;
+  
+  
+  margin-left: 150px;
+  
+  }
+  .casque{
+    
+    top: 0;
+   width: 400px;
+  
+  }
+  .team{
+  
+    flex-direction: column;
+    display: block;
+    width: 35%;
+    margin-left: 350px;
+    padding-bottom: 50px;
+  }
+  
+  
+  
+  }
